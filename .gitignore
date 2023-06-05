@@ -1,0 +1,29 @@
+# ide support (in general)
+.env*
+!.env.sample
+!.envrc
+/.idea/
+/.vscode/*
+!/.vscode/*.sample.json
+!/.vscode/*.sample
+
+# laravel
+bootstrap
+!bootstrap/app.php
+!bootstrap/cache/.keepme
+Pods/
+vendor
+
+# node
+node_modules
+
+# android build debug artifacts
+**/*.hprof
+
+# terraform
+.terraform
+.terragrunt-cache
+
+# miscellaneous
+.DS_Store
+/tmp
